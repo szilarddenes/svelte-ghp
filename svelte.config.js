@@ -14,7 +14,8 @@ const config = {
 			// change below to your repo name
 			base: dev ? '' : '/svelte-ghp',
 		},
-	}
+	},
+	trailingSlash: 'always',
 };
 
 export default config;
